@@ -72,6 +72,11 @@ var FLICKR_CLIENT_ID = {
 	'adodson.com' : '8d7cfb86e6d6bfab49579c3bfdb95796'
 }[window.location.hostname];
 
+var DAILYCRED_CLIENT_ID = {
+	'local.knarly.com' : 'NA',
+	'adodson.com' : 'NA'
+}[window.location.hostname];
+
 
 // To make it a little easier
 var CLIENT_IDS_ALL = {
@@ -86,7 +91,8 @@ var CLIENT_IDS_ALL = {
 	soundcloud : SOUNDCLOUD_CLIENT_ID,
 	foursquare : FOURSQUARE_CLIENT_ID,
 	github : GITHUB_CLIENT_ID,
-	flickr: FLICKR_CLIENT_ID
+	flickr: FLICKR_CLIENT_ID,
+	dailycred: DAILYCRED_CLIENT_ID
 };
 
 var TUMBLR_CLIENT_ID = {
