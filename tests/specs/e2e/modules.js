@@ -11,7 +11,8 @@ define([
 	'../../../src/modules/linkedin',
 	'../../../src/modules/foursquare',
 	'../../../src/modules/github',
-	'../../../src/modules/soundcloud'
+	'../../../src/modules/soundcloud',
+	'../../../src/modules/dailycred',
 ], function(
 //	hello
 	error_response
